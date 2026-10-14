@@ -1141,6 +1141,7 @@ Key routers:
 - `/api/graph`: graph export in D3-compatible JSON format
 - `/api/webhooks/github`: GitHub webhook handler with HMAC verification
 - `/api/webhooks/gitlab`: GitLab webhook handler
+- `/api/webhooks/gitea`: Gitea and Forgejo webhook handler with HMAC verification
 - `/api/repos/{id}/git-metadata`: per-file git metadata
 - `/api/repos/{id}/hotspots`: high-churn + high-complexity files
 - `/api/repos/{id}/ownership`: ownership breakdown (file/module/package granularity)
